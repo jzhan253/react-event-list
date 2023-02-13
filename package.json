@@ -4,12 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack serve",
-    "homepage": "https://event-list-react.github.io/react-gh-pages"
+    "start": "webpack serve"
   },
   "keywords": [],
   "author": "",
